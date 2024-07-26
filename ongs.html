@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="../css/tailwind/output.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/global/header.css">
+    <link rel="stylesheet" href="../css/pages/ongs.css">
+    <link rel="stylesheet" href="../css/global/workCredits.css">
+    <link rel="stylesheet" href="../css/global/footer.css">
+
+    <meta name="theme-color" content="#505F04"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="#505F04"/>
+    <meta name="msapplication-navbutton-color" content="#505F04"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script src="../functions/global/header.js"></script>
+
+    <title>ONGs - EcoConexão</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="../index.html" class="font-bold">
+                    <h1 class="classEco text-ForestGreen">Eco<span class="classConexão text-cyan-400">Conexão</span></h1>
+                </a>
+            </div>
+
+            <div class="menu-icon" onclick="abrirMenu()">
+                <img src="../img/menu.png">
+            </div>
+
+            <ul>
+                <li>
+                    <a href="../index.html">Início</a>
+                </li>
+                <li>
+                    <a href="../pages/energias-renovaveis.html">Energias Renováveis</a>
+                </li>
+                <li>
+                    <a href="../pages/ongs.html">ONGs</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="ongsPresentationCard flex justify-center items-center">
+            <div class="PresentationCardContent absolute text-center text-white z-10 py-3.5 px-3.5 max-w-7xl">
+                <h1 class="PresentationCardTitle font-bold text-3xl">
+                    Conheça as ONGs do Meio Ambiente e seu Impacto Positivo
+                </h1>
+                <p class="PresentationCardDescription font-semibold text-xl">
+                    Conheça as ONGs dedicadas a proteger e preservar o meio ambiente. Saiba como essas organizações estão trabalhando incansavelmente para transformar o mundo em um lugar mais verde e sustentável. Junte-se a nós nessa jornada de apoio às causas ambientais e descubra como você também pode fazer a diferença!
+                </p>
+            </div>
+            <figure class="PresentationCardImage w-full brightness-50">
+                <img src="../img/ong-meio-ambiente.jpg" alt="Apresentação das ONGs">
+            </figure>
+        </section>    
+
+        <section class="ongsProjects">
+            <h1 class="ongsProjectsTitle font-bold text-ForestGreen text-center text-3xl mx-2 ResponsiveMid:text-4xl">
+                Projetos e Iniciativas Impactantes das ONGs
+            </h1>
+            <article class="ongsProjectsCard flex flex-wrap justify-evenly py-3.5 text-white text-center">
+
+                
+                <div class="ProjectsCardItem bg-DarkMossGreen">
+                    <figure class="ProjectsCardImage">
+                        <img src="../img/ongs-projects1.jpg" alt="Projetos das ONGs">
+                        <a href="https://www.conservation.org/brasil/faca-a-diferenca/doe-agora" target="_blank" class="ProjectsCardLink">
+                            Faça sua Doação clicando aqui!
+                        </a>
+                    </figure>
+                    <div class="ProjectsCardContent">
+                        <h1 class="ProjectsCardTitle">
+                            Conservation International
+                        </h1>
+                        <p class="ProjectsCardDescription">
+                            A Conservation International desempenha um papel vital na proteção de ecossistemas importantes em todo o mundo. Seu enfoque na restauração de áreas degradadas e na promoção do uso sustentável dos recursos naturais tem contribuído significativamente para a conservação da biodiversidade e a mitigação das mudanças climáticas. Por meio de programas inovadores, a organização tem incentivado a participação das comunidades locais na conservação, destacando a importância do equilíbrio entre o bem-estar humano e a saúde do meio ambiente. Seu trabalho é fundamental para garantir um futuro próspero para todas as formas de vida no planeta.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="ProjectsCardItem specialProjectsCardItem">
+                    <figure class="ProjectsCardImage">
+                        <img src="../img/ongs-projects2.jpg" alt="Projetos das ONGs">
+                        <a href="https://doe.wwf.org.br/restaurar" target="_blank" class="ProjectsCardLink">
+                            Faça sua Doação clicando aqui!
+                        </a>
+                    </figure>
+                    <div class="ProjectsCardContent">
+                        <h1 class="ProjectsCardTitle">
+                            WWF (World Wide Fund for Nature)
+                        </h1>
+                        <p class="ProjectsCardDescription">
+                            O WWF é uma das principais organizações dedicadas à preservação da biodiversidade e à conservação dos habitats naturais em todo o mundo. Com projetos abrangentes e iniciativas inovadoras, o WWF busca combater a caça ilegal, proteger florestas e promover o uso sustentável dos recursos naturais. Através do envolvimento das comunidades locais e parcerias internacionais, o WWF trabalha para garantir que a vida selvagem e os ecossistemas essenciais sejam preservados. Seu compromisso com a sustentabilidade e a coexistência harmoniosa entre humanos e a natureza é fundamental para um futuro equilibrado e saudável.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="ProjectsCardItem bg-DarkMossGreen">
+                    <figure class="ProjectsCardImage">
+                        <img src="../img/ongs-projects3.jpg" alt="Projetos das ONGs">
+                        <a href="https://doe.greenpeace.org.br/doar/p?appeal=19089&utm_source=google&utm_medium=cpc&utm_campaign=institucional&utm_content=aq_search&gclid=CjwKCAjw_aemBhBLEiwAT98FMgKMiP49Ckqt9kPtpS6Lb3cH1pjtUhUWqbT3vJEJsRb9TXWhZMQRHhoCmu0QAvD_BwE" target="_blank" class="ProjectsCardLink">
+                            Faça sua Doação clicando aqui!
+                        </a>
+                    </figure>
+                    <div class="ProjectsCardContent">
+                        <h1 class="ProjectsCardTitle">
+                            Greenpeace
+                        </h1>
+                        <p class="ProjectsCardDescription">
+                            O Greenpeace, uma das organizações não governamentais mais proeminentes, é conhecido por liderar campanhas globais em prol da proteção do meio ambiente. Com a coragem e determinação de suas ações, o Greenpeace tem abordado questões urgentes, como desmatamento, poluição do oceano e mudanças climáticas. Sua luta por um futuro sustentável e livre de combustíveis fósseis é exemplar, inspirando milhões a adotar práticas ambientalmente responsáveis. Ao enfrentar poderosos interesses comerciais, o Greenpeace destaca a importância da conservação dos recursos naturais para garantir um planeta saudável para as gerações futuras.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="ProjectsCardItem specialProjectsCardItem">
+                    <figure class="ProjectsCardImage">
+                        <img src="../img/ongs-projects4.jpg" alt="Projetos das ONGs">
+                        <a href="https://rainforestfoundation.org" target="_blank" class="ProjectsCardLink">
+                            Faça sua Doação clicando aqui!
+                        </a>
+                    </figure>
+                    <div class="ProjectsCardContent">
+                        <h1 class="ProjectsCardTitle">
+                            Rainforest Foundation
+                        </h1>
+                        <p class="ProjectsCardDescription">
+                            A Rainforest Foundation tem se dedicado intensamente à proteção das florestas tropicais e aos direitos das comunidades indígenas que as habitam. Seu trabalho visa preservar a rica biodiversidade e as culturas tradicionais, que desempenham um papel crucial na manutenção do equilíbrio ambiental. Por meio de parcerias e projetos colaborativos, a Rainforest Foundation busca fortalecer as comunidades locais, capacitando-as a proteger suas terras e a resistir à exploração ilegal. Sua abordagem holística para a conservação florestal inspira a conscientização global sobre a importância vital das florestas tropicais para a sustentabilidade do planeta.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="ongsVoluntary mt-20 bg-DarkMossGreen">
+            <h1 class="ongsVoluntaryTitle font-bold text-white text-center text-4xl pt-4 pb-2">
+                Voluntariado e Engajamento com as ONGs
+            </h1>
+            <article class="ongsVoluntaryCard flex flex-wrap text-center">
+                <div class="VoluntaryCardItem">
+                    <div class="VoluntaryCardContent pb-4">
+                        <h2 class="VoluntaryCardTitle">
+                            O Poder do Voluntariado com as ONGs
+                        </h2>
+                        <p class="VoluntaryCardDescription">
+                            O voluntariado e o engajamento com as ONGs são fundamentais para promover mudanças positivas na sociedade e no meio ambiente. Ao se envolverem com causas sociais e ambientais, as pessoas têm a oportunidade de contribuir diretamente para questões que lhes interessam, seja por meio de trabalho voluntário, doações ou compartilhamento de informações. Além de beneficiar as comunidades atendidas, o voluntariado também proporciona crescimento pessoal e desenvolvimento de habilidades. Inspirando-se em histórias de voluntários que fizeram a diferença, cada indivíduo pode desempenhar um papel significativo na construção de um futuro mais sustentável e equitativo para todos. Juntos, podemos criar um mundo melhor para as gerações presentes e futuras.
+                        </p>
+                    </div>
+                    <figure class="VoluntaryCardImage">
+                        <img src="../img/ongs-voluntario1.jpg" alt="Voluntariado das ONGs">
+                    </figure>
+                </div>
+
+                <div class="VoluntaryCardItem specialVoluntaryCardItem">
+                    <div class="VoluntaryCardContent">
+                        <h2 class="VoluntaryCardTitle">
+                            Formas de se envolver com as ONGs
+                        </h2>
+                        <p class="VoluntaryCardDescription">
+                            O voluntariado é uma peça fundamental para o funcionamento e sucesso das ONGs ao redor do mundo. Ao dedicar tempo e habilidades, indivíduos têm a oportunidade de fazer a diferença nas causas que lhes são importantes. Seja atuando localmente, doando recursos ou compartilhando informações, o engajamento com as ONGs fortalece comunidades e promove mudanças positivas. O trabalho voluntário não só beneficia as pessoas e projetos atendidos, mas também enriquece a vida dos próprios voluntários, proporcionando gratificação e realização por contribuir para um mundo melhor.
+                        </p>
+                    </div>
+                    <figure class="VoluntaryCardImage">
+                        <img src="../img/ongs-voluntario2.jpg" alt="Voluntariado das ONGs">
+                    </figure>
+                </div>
+
+                <div class="VoluntaryCardItem">
+                    <div class="VoluntaryCardContent">
+                        <h2 class="VoluntaryCardTitle">
+                            Histórias inspiradoras de voluntários
+                        </h2>
+                        <p class="VoluntaryCardDescription">
+                            Dentro do coração do voluntariado, reside uma poderosa fonte de histórias inspiradoras. São relatos de pessoas comuns que, movidas pelo desejo de ajudar, encontram-se em jornadas extraordinárias ao lado das ONGs. Deixando suas marcas por onde passam, esses voluntários dedicam tempo, paixão e talento em prol de causas humanitárias, ambientais e sociais. Suas experiências são testemunhos vivos do impacto positivo que uma ação altruísta pode ter no mundo. Essas narrativas de solidariedade e empatia inspiram e nos lembram que cada um de nós tem o poder de fazer a diferença e ser parte ativa na construção de um futuro mais justo e compassivo.
+                        </p>
+                    </div>
+                    <figure class="VoluntaryCardImage">
+                        <img src="../img/ongs-voluntario3.jpg" alt="Voluntariado das ONGs">
+                    </figure>
+                </div>
+            </article>
+        </section>
+
+        <section class="workCredits text-center">
+            <h1 class="workCreditsTitle text-xl">Desenvolvido por <a href="https://github.com/DavidBurKing" target="_blank" class="workCreditsLink">Mario girotto 2°A</a></h1>
+            <p class="workCreditsDescription">Mario Girotto <span></span></p>
+        </section>
+    </main>
+
+    <footer class="siteFooter bg-DarkMossGreen text-white px-6 py-6 flex justify-between items-center">
+        <div class="footerContent">
+            <h1 class="text-ForestGreen font-bold text-2xl">Eco<span class="text-cyan-400">Conexão</span>
+            </h1>
+            <a href="https://github.com/DavidBurKing" target="_blank">
+                <p class="font-semibold">© 2024 Mario Girotto (Dev)</p>
+            </a>
+        </div>
+        <div>
+
+        </div>
+        <div>
+            <div class="footerNav inline-grid font-semibold">
+                <a href="../index.html">Início</a>
+                <a href="../pages/energias-renovaveis.html">Energias Renováveis</a>
+                <a href="../pages/ongs.html"> ONGs</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
